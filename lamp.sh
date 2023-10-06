@@ -89,7 +89,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Variáveis de configuração do usuário root e senha do MySQL para acesso via console e do PhpMyAdmin
 USER="root"
-PASSWORD="pti@2018"
+PASSWORD="cn22250011i"
 AGAIN=$PASSWORD
 #
 # Variáveis de configuração e liberação da conexão remota para o usuário Root do MySQL

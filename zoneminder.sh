@@ -30,6 +30,15 @@
 # Vídeo de instalação do GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=zDdCrqNhIXI
 # Vídeo de instalação do LAMP Server no GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=6EFUu-I3u4s
 #
+# para clocar no ubuntu
+#   git clone https://github.com/macega/ubuntu-1804.git
+# entra na pasta 
+#   cd ubuntu-1804/
+# executar o script
+#   bash xoneminder.sh 
+# para visualizar o log 
+# sudo tail -f /var/log/zoneminder.sh 
+# 
 # Variável da Data Inicial para calcular o tempo de execução do script (VARIÁVEL MELHORADA)
 # opção do comando date: +%T (Time)
 HORAINICIAL=$(date +%T)
