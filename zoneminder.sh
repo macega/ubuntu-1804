@@ -49,7 +49,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Declarando as variáveis para criação da Base de Dados do ZoneMinder
 USER="root"
-PASSWORD="pti@2018"
+PASSWORD="cn22250011i"
 DATABASE="/usr/share/zoneminder/db/zm_create.sql"
 GRANTALL="GRANT ALL PRIVILEGES ON zm.* TO 'zmuser'@'localhost' IDENTIFIED by 'zmpass';"
 FLUSH="FLUSH PRIVILEGES;"
@@ -177,7 +177,7 @@ echo
 echo -e "Editando as Configurações do PHP, pressione <Enter> para continuar"
 	# opção do comando: &>> (redirecionar a saída padrão)
 	#[Date]
-	#date.timezone = America/Sao_Paulo
+	#date.timezone = America/Porto_Velho
 	read
 	vim /etc/php/7.2/apache2/php.ini +197
 echo -e "Arquivo do PHP editado com sucesso!!!, continuando com o script..."
